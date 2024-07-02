@@ -6,7 +6,7 @@ import ChildComponent from './ChildComponent';
 export const ParentComponent = () => {
 
   // Definir un estado local con un mensaje
-  const [ message ] = useState("¡¡Hola desde el componente Padre!!");
+  const [ message ] = useState("¡¡Hola desde el componente Padre hoy!!");
   const [ response, setResponse ] = useState();
 
   // Función para recibir la respuesta del hijo
