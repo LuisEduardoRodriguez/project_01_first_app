@@ -3,7 +3,7 @@ import React from 'react'
 const ChildComponent = ({ message, onRespond }) => {
 
   const handleClick = () => {
-    onRespond("!Hola respuesta del HIJO!");
+    onRespond("!Hola respuesta del HIJO hoy!");
   }
 
   return (
